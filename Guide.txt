@@ -1,0 +1,4 @@
+1. Init app, server, route and controller
+ a. Setup middleware express.json to allow request become json object
+ b. Route should had basic get create for non-id route and get one, delete, patch for id route
+2. Install eslint (* optional) and create .eslint.json with eslint extension install on vs code
