@@ -1,4 +1,11 @@
 1. Init app, server, route and controller
  a. Setup middleware express.json to allow request become json object
  b. Route should had basic get create for non-id route and get one, delete, patch for id route
+
 2. Install eslint (* optional) and create .eslint.json with eslint extension install on vs code
+
+3. Init env variable
+ a. install dotenv and init config.env
+ b. init start script 
+ c. Use process.env.NODE_ENV to get the env 
+ d. Optional : use morgan middleware for logging
