@@ -9,3 +9,8 @@
  b. init start script 
  c. Use process.env.NODE_ENV to get the env 
  d. Optional : use morgan middleware for logging
+
+4. Setup mongo and mongoose
+ a. Setup env url
+ b. Setup mongoose in server.js
+ c. Setup schema/model, controller and utils for generic function like APIFeatures
