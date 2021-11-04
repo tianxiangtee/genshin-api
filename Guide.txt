@@ -14,3 +14,6 @@
  a. Setup env url
  b. Setup mongoose in server.js
  c. Setup schema/model, controller and utils for generic function like APIFeatures
+    c1 -> Recommend first setup basic prop, then add mongo validation like required, min max 
+
+

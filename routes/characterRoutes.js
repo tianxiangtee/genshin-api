@@ -14,4 +14,8 @@ router
   .patch(characterController.patchCharacter)
   .delete(characterController.deleteCharacter);
 
+router
+  .route("/vision-stats/:vision")
+  .get(characterController.getAllCharacterStat);
+
 module.exports = router;
